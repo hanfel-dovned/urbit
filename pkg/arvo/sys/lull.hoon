@@ -2694,7 +2694,20 @@
   +$  rout  [p=(list host) q=path r=oryx s=path]        ::  http route (new)
   +$  user  knot                                        ::  username
   --  ::eyre
-::                                                      ::::
+::          
+::::                    ++faux                            ::  (1f) homework
+  ::                                                    ::::
+++  faux  ^?
+  |%
+  +$  gift                                              ::  out result <-$
+    $%  [%none ~]                                       ::  placeholder
+    ==
+  +$  task                                              ::  in request ->$
+    $~  [%vega ~]                                       ::
+    $%  [%vega ~]                                       ::  print a message on kernel upgrade
+    ==
+  --  ::faux
+::                                                     ::::
 ::::                    ++gall                            ::  (1g) extensions
   ::                                                    ::::
 ++  gall  ^?
